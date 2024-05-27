@@ -32,7 +32,7 @@ def display_menu():
     print("                   Snacks:")
     print("                  ──●◎●──")
     for code, item in menu["Snacks"].items():
-        print(f"{code}. {item['name']} - ${item['price']:.2f}")
+        print(f"{code}. {item['name']} - AED{item['price']:.2f}")
     print("")
     print("        ✦•···········•✦•···········•✦")
     print("")
